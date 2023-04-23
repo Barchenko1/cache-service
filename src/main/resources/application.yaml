@@ -1,0 +1,9 @@
+server:
+  port: 8282
+spring:
+  cache:
+    jcache:
+      config: ehcache.xml
+com:
+  tds:
+    url: "http://localhost:8080/v2/appUsersAndProducts"
